@@ -5,55 +5,55 @@ import { FadeImage } from "@/components/fade-image";
 const accessories = [
   {
     id: 1,
-    name: "Wireless Charging Stand",
-    description: "Induction charging dock for effortless power",
-    price: "$89",
-    image: "/images/accessory-charger.png",
+    name: "Digital Thermometer",
+    description: "Fast and accurate temperature readings",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800",
   },
   {
     id: 2,
-    name: "Protective Silicone Sleeve",
-    description: "Textured grip sleeve for enhanced durability",
-    price: "$45",
-    image: "/images/accessory-sleeve.png",
+    name: "Compression Stockings",
+    description: "Medical-grade support for circulation",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1583947215259-38e31be8751f?q=80&w=800",
   },
   {
     id: 3,
-    name: "Carbon Fiber Bike Mount",
-    description: "Ultra-light mounting system for cycling",
-    price: "$129",
-    image: "/images/accessory-bike-mount.png",
+    name: "Walking Canes & Crutches",
+    description: "Adjustable mobility support aids",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=800",
   },
   {
     id: 4,
-    name: "Premium Carry Strap",
-    description: "Adjustable strap with quick-release clips",
-    price: "$39",
-    image: "/images/accessory-strap.png",
+    name: "Wound Care Kits",
+    description: "Complete bandaging and dressing supplies",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1603398938378-e54eab446dde?q=80&w=800",
   },
   {
     id: 5,
-    name: "Carabiner Clip System",
-    description: "Secure attachment for hands-free carrying",
-    price: "$29",
-    image: "/images/accessory-carabiner.png",
+    name: "Pulse Oximeters",
+    description: "Fingertip oxygen level monitoring",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1631549916768-4f8c1366c8c2?q=80&w=800",
   },
   {
     id: 6,
-    name: "Bluetooth Speaker Base",
-    description: "High-fidelity audio dock with grip stabilizers",
-    price: "$149",
-    image: "/images/accessory-speaker-base.png",
+    name: "Bathroom Safety Rails",
+    description: "Secure grab bars and shower seats",
+    price: "Call",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800",
   },
 ];
 
 export function CollectionSection() {
   return (
-    <section id="accessories" className="bg-background">
+    <section id="supplies" className="bg-background">
       {/* Section Title */}
       <div className="px-6 py-20 md:px-12 lg:px-20 md:py-10">
         <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl">
-          Essential Accessories
+          Medical Supplies
         </h2>
       </div>
 

@@ -12,14 +12,14 @@ export function GallerySection() {
   const lastScrollRef = useRef(0);
 
   const images = [
-    { src: "/images/bottle-bike.png", alt: "Thermal bottle on bike" },
-    { src: "/images/bottle-lake.png", alt: "Thermal bottle by lake" },
-    { src: "/images/bottle-water.png", alt: "Thermal bottle in water" },
-    { src: "/images/bottle-stream.png", alt: "Thermal bottle by stream" },
-    { src: "/images/bottle-fire.png", alt: "Thermal bottle by fire" },
-    { src: "/images/bottle-snow.png", alt: "Thermal bottle in snow" },
-    { src: "/images/bottle-mountain.png", alt: "Thermal bottle on mountain" },
-    { src: "/images/bottle-canyon.png", alt: "Thermal bottle at canyon" },
+    { src: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1200", alt: "Stethoscope and diagnostics" },
+    { src: "https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?q=80&w=1200", alt: "Hospital bed and care equipment" },
+    { src: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=1200", alt: "Medical supplies display" },
+    { src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1200", alt: "Pharmacy and medication" },
+    { src: "https://images.unsplash.com/photo-1631549916768-4f8c1366c8c2?q=80&w=1200", alt: "Blood pressure monitoring" },
+    { src: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=1200", alt: "Healthcare team" },
+    { src: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=1200", alt: "Medical facility" },
+    { src: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?q=80&w=1200", alt: "Medical supply shelves" },
   ];
 
   // Calculate section height based on content width

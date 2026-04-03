@@ -3,30 +3,30 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-const word = "EVASION";
+const word = "HEALING";
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1517824806704-9040b037703b?q=80&w=1000",
-    alt: "Mountain hiking adventure",
+    src: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1000",
+    alt: "Stethoscope and medical equipment",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1000",
-    alt: "Camping under stars",
+    src: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=1000",
+    alt: "Wheelchair and mobility aids",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1533873984035-25970ab07461?q=80&w=1000",
-    alt: "Forest exploration",
+    src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1000",
+    alt: "Pharmacy and medical supplies",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=1000",
-    alt: "Lake camping view",
+    src: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1000",
+    alt: "Medical laboratory equipment",
     position: "right",
     span: 1,
   },
@@ -126,8 +126,8 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="/images/hero-main.png"
-                alt="Mountain landscape with camping tent at sunset"
+                src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?q=80&w=2000"
+                alt="Medical supplies and healthcare equipment"
                 fill
                 className="object-cover"
                 priority
@@ -195,9 +195,9 @@ export function HeroSection() {
       {/* Tagline Section */}
       <div className="px-6 pt-32 pb-28 md:pt-48 md:px-12 md:pb-36 lg:px-20 lg:pt-56 lg:pb-44">
         <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-muted-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          Lightweight, durable
+          Trusted care, quality
           <br />
-          and adventure-ready.
+          medical supplies since 1980.
         </p>
       </div>
     </section>

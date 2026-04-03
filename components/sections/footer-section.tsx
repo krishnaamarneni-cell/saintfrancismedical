@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const footerLinks = {
   explore: [
-    { label: "Products", href: "#products" },
-    { label: "Technology", href: "#technology" },
+    { label: "Services", href: "#services" },
+    { label: "Equipment", href: "#equipment" },
     { label: "Gallery", href: "#gallery" },
-    { label: "Accessories", href: "#accessories" },
+    { label: "Supplies", href: "#supplies" },
   ],
   about: [
     { label: "Our Story", href: "#" },
@@ -17,9 +17,9 @@ const footerLinks = {
   ],
   service: [
     { label: "FAQ", href: "#" },
-    { label: "Shipping", href: "#" },
-    { label: "Returns", href: "#" },
-    { label: "Warranty", href: "#" },
+    { label: "Delivery", href: "#" },
+    { label: "Insurance", href: "#" },
+    { label: "Support", href: "#" },
   ],
 };
 
@@ -32,10 +32,10 @@ export function FooterSection() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 lg:col-span-2">
             <Link href="/" className="text-lg font-medium text-foreground">
-              EVASION
+              SAINT FRANCIS
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Premium smart bottles engineered for adventure. GPS tracking, LED flashlight, and self-heating technology.
+              Greater Waterbury's most complete medical equipment and supply company. 337 East Main Street, Waterbury, CT 06702. Tel: (203) 755-1495.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export function FooterSection() {
       <div className="border-t border-border px-6 py-6 md:px-12 lg:px-20">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            2026 EVASION. All rights reserved.
+            2026 SAINT FRANCIS. All rights reserved.
           </p>
 
           

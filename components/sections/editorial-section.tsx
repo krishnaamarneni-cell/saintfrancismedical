@@ -1,10 +1,10 @@
 "use client";
 
 const specs = [
-  { label: "Weight", value: "400g" },
-  { label: "Capacity", value: "0.5L - 2L" },
-  { label: "Setup", value: "2 min" },
-  { label: "Packed size", value: "30 x 15 cm" },
+  { label: "Experience", value: "40+ yrs" },
+  { label: "Products", value: "5,000+" },
+  { label: "Delivery", value: "Same Day" },
+  { label: "Location", value: "Waterbury, CT" },
 ];
 
 export function EditorialSection() {
@@ -36,15 +36,12 @@ export function EditorialSection() {
         ))}
       </div>
 
-      {/* Full-width Video */}
+      {/* Full-width Image */}
       <div className="relative aspect-[16/9] w-full md:aspect-[21/9]">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
+        <img
           className="absolute inset-0 h-full w-full object-cover"
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bcdafadc-cb7e-4cb7-9cbf-edcbaf2360a5_1-cNBCz5fomcLRmm1cTXSBOKCq10VP91.mp4"
+          src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2000"
+          alt="Saint Francis Medical store interior"
         />
       </div>
     </section>

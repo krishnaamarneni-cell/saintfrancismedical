@@ -4,49 +4,49 @@ import { FadeImage } from "@/components/fade-image";
 
 const features = [
   {
-    title: "Smart Temperature Control",
-    description: "Innovation",
-    image: "/images/d18fe616-5596-4559-90f5-a90f5397d0d8.png",
+    title: "Blood Pressure Monitors",
+    description: "Diagnostics",
+    image: "https://images.unsplash.com/photo-1631549916768-4f8c1366c8c2?q=80&w=1000",
   },
   {
-    title: "Ultra-Light Carbon Frame",
-    description: "Performance",
-    image: "/images/e26fa9c3-966d-4966-94a4-954a1e511c1c.png",
+    title: "Wheelchairs & Mobility",
+    description: "Mobility Aids",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=1000",
   },
   {
-    title: "Weather-Resistant Design",
-    description: "Durability",
-    image: "/images/car.jpg",
+    title: "Hospital Beds & Accessories",
+    description: "Home Care",
+    image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=1000",
   },
   {
-    title: "Integrated GPS Tracking",
-    description: "Navigation",
-    image: "/images/204cee22-9e85-49e8-9303-1d309af626b0.png",
+    title: "Respiratory Equipment",
+    description: "Breathing Support",
+    image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=1000",
   },
   {
-    title: "Built-In LED Flashlight",
-    description: "Visibility",
-    image: "/images/led-flashlight-bottle.png",
+    title: "First Aid & Wound Care",
+    description: "Emergency",
+    image: "https://images.unsplash.com/photo-1603398938378-e54eab446dde?q=80&w=1000",
   },
   {
-    title: "Self-Heating Technology",
-    description: "Comfort",
-    image: "/images/heating-campfire.png",
+    title: "Rehabilitation Supplies",
+    description: "Recovery",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000",
   },
 ];
 
 export function FeaturedProductsSection() {
   return (
-    <section id="technology" className="bg-background">
+    <section id="equipment" className="bg-background">
       {/* Section Title */}
       <div className="px-6 py-20 text-center md:px-12 md:py-28 lg:px-20 lg:py-32 lg:pb-20">
         <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl lg:text-5xl">
-          Engineered for Excellence.
+          Trusted Medical Supplies.
           <br />
-          Designed for Adventure.
+          Designed for Better Care.
         </h2>
         <p className="mx-auto mt-6 max-w-md text-sm text-muted-foreground">
-          Technology
+          Products & Equipment
         </p>
       </div>
 

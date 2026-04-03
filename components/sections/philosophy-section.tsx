@@ -55,7 +55,7 @@ export function PhilosophySection() {
   }, [updateTransforms]);
 
   return (
-    <section id="products" className="bg-background">
+    <section id="services" className="bg-background">
       {/* Scroll-Animated Product Grid */}
       <div ref={sectionRef} className="relative" style={{ height: "200vh" }}>
         <div className="sticky top-0 h-screen flex items-center justify-center">
@@ -66,7 +66,7 @@ export function PhilosophySection() {
               style={{ opacity: titleOpacity }}
             >
               <h2 className="text-[12vw] font-medium leading-[0.95] tracking-tighter text-foreground md:text-[10vw] lg:text-[8vw] text-center px-6">
-                Meet Alpine & Forest.
+                Meet Our Products.
               </h2>
             </div>
 
@@ -83,14 +83,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/product-backpack.png"
-                  alt="V1 Expedition Backpack in alpine setting"
+                  src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?q=80&w=1000"
+                  alt="Medical supplies and protective equipment"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Alpine $299
+                    Medical Supplies
                   </span>
                 </div>
               </div>
@@ -106,14 +106,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/02cdc426-dff4-4dff-b131-1b134c3699b5.png"
-                  alt="V1 Thermal mug in forest setting"
+                  src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?q=80&w=1000"
+                  alt="Healthcare equipment and mobility aids"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Forest $199
+                    Healthcare Equipment
                   </span>
                 </div>
               </div>
@@ -126,11 +126,11 @@ export function PhilosophySection() {
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-36 lg:pb-14">
         <div className="text-center">
           <p className="text-xs uppercase tracking-widest text-muted-foreground">
-            First generation
+            Over 40 years of service
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Alpine & Forest are high-tech outdoor accessories designed for modern adventurers. 
-            Lightweight, durable, and engineered for extreme conditions.
+            Saint Francis Medical is Greater Waterbury's most complete medical equipment and supply company 
+            with over 40 years of knowledge and experience in healthcare equipment and supplies.
           </p>
         </div>
       </div>
