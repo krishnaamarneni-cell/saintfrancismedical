@@ -4,34 +4,34 @@ import { FadeImage } from "@/components/fade-image";
 
 const features = [
   {
-    title: "Blood Pressure Monitors",
-    description: "Diagnostics",
-    image: "https://images.unsplash.com/photo-1631549916768-4f8c1366c8c2?q=80&w=1000",
+    title: "Bathroom Safety",
+    description: "Grab Bars · Shower Chairs · Transfer Benches",
+    image: "https://images.pexels.com/photos/7551667/pexels-photo-7551667.jpeg?w=1000",
   },
   {
-    title: "Wheelchairs & Mobility",
-    description: "Mobility Aids",
-    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=1000",
+    title: "Wheelchairs",
+    description: "Standard · Bariatric · Transport",
+    image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?w=1000",
   },
   {
-    title: "Hospital Beds & Accessories",
-    description: "Home Care",
-    image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?q=80&w=1000",
+    title: "Hospital Beds",
+    description: "Bed Rails · Accessories · Overbed Tables",
+    image: "https://images.pexels.com/photos/7108344/pexels-photo-7108344.jpeg?w=1000",
   },
   {
-    title: "Respiratory Equipment",
-    description: "Breathing Support",
-    image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=1000",
+    title: "Rollators & Walkers",
+    description: "3-Wheel · 4-Wheel · Folding Walkers",
+    image: "https://images.pexels.com/photos/7089395/pexels-photo-7089395.jpeg?w=1000",
   },
   {
-    title: "First Aid & Wound Care",
-    description: "Emergency",
-    image: "https://images.unsplash.com/photo-1603398938378-e54eab446dde?q=80&w=1000",
+    title: "Mobility Aids",
+    description: "Canes · Crutches · Walking Aids",
+    image: "https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?w=1000",
   },
   {
-    title: "Rehabilitation Supplies",
-    description: "Recovery",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000",
+    title: "Patient Room",
+    description: "Fall Prevention · Alarms · Geri Chairs",
+    image: "https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?w=1000",
   },
 ];
 
