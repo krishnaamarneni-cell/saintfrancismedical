@@ -36,25 +36,25 @@ export function Header() {
             href="#services"
             className={`text-sm transition-colors ${isScrolled ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"}`}
           >
+            Services
+          </Link>
+          <Link
+            href="#products"
+            className={`text-sm transition-colors ${isScrolled ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"}`}
+          >
             Products
           </Link>
           <Link
-            href="#equipment"
+            href="#about"
             className={`text-sm transition-colors ${isScrolled ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"}`}
           >
-            Technology
+            About Us
           </Link>
           <Link
-            href="#gallery"
+            href="#contact"
             className={`text-sm transition-colors ${isScrolled ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"}`}
           >
-            Gallery
-          </Link>
-          <Link
-            href="#supplies"
-            className={`text-sm transition-colors ${isScrolled ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"}`}
-          >
-            Accessories
+            Contact
           </Link>
         </nav>
 
@@ -88,28 +88,28 @@ export function Header() {
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
+              Services
+            </Link>
+            <Link
+              href="#products"
+              className="text-lg text-foreground"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Products
             </Link>
             <Link
-              href="#equipment"
+              href="#about"
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
-              Technology
+              About Us
             </Link>
             <Link
-              href="#gallery"
+              href="#contact"
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
-              Gallery
-            </Link>
-            <Link
-              href="#supplies"
-              className="text-lg text-foreground"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Accessories
+              Contact
             </Link>
             <Link
               href="#reserve"
